@@ -7,6 +7,10 @@ int main() {
 		//throw 0,5; // Melemparkan sebuah integer maka
 		cout << "Pernyataan tidak akan dieksekusi" << endl;
 	}
+	catch (int a) {
+		//bok ini akan dieksekusi
+		cout << "Pengecualian akan dieksekusi" << endl;
+	}
 
 }
 
